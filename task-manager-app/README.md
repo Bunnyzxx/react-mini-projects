@@ -2,6 +2,8 @@
 
 A simple task manager built in React. Tasks can be added with a title and priority, moved through stages (Todo → In Progress → Done), and filtered by priority.
 
+![Task Manager UI](./src/assets/image.png)
+
 ## Features
 - Add tasks
 - Priority: High / Medium / Low
