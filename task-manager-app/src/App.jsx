@@ -45,7 +45,7 @@ const Header = function () {
   );
 };
 
-const AddTask = function ({ todos, handleAddTodos }) {
+const AddTask = function ({ handleAddTodos }) {
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("todo");
   const [priority, setPriority] = useState("high");
@@ -57,8 +57,7 @@ const AddTask = function ({ todos, handleAddTodos }) {
       priority: priority,
     };
     handleAddTodos(newTask);
-    console.log("Settodos:", todos);
-    console.log(newTask);
+    setTitle(()=> " ")
   };
 
   return (
